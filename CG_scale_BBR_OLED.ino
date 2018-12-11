@@ -1,19 +1,17 @@
 //CG-scale originally designed and published by Olav Kallhovd; https://github.com/olkal/CG_scale
 
-// This is a beerware; if you like it and if we meet some day, you can pay me a beer in return!
-
 /*
   -------------------------------------------------------
   Update 10/01/2018:
   - Use of OLED I2C display
-  - Corrected HX711 initiamization
+  - Corrected HX711 initialization
   - Removed timeout no longer needed with OLED display
   -------------------------------------------------------
-*/
-
-/*
-  Copyright Jean-Michel Bombar, France, 2018 (jmb91650@gmail.com)
-
+  Copyright J'm f5mmx, France, 2018 (jmb91650@gmail.com)
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  This is a beerware; if you like it and if we meet some day, you can pay me a beer in return!
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  
   Only one Arduino board is needed, as OLED-display with i2c-bus is used.
   I used this: 0.96" I2C IIC Serial 128X64 128*64 Blue OLED LCD LED Display Module for Arduino
 

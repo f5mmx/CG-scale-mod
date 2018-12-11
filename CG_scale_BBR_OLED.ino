@@ -1,5 +1,6 @@
-
 //CG-scale originally designed and published by Olav Kallhovd; https://github.com/olkal/CG_scale
+
+// This is a beerware; if you like it and if we meet some day, you can pay me a beer in return!
 
 /*
   -------------------------------------------------------

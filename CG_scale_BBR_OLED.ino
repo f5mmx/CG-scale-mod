@@ -25,7 +25,7 @@
   Connections / pins:
   - rear load cell:   A2-A3
   - front load cell:  A0-A1
-  - LCD i2c-bus:      A4-A5 (SDA-SCL)
+  - Oled i2c-bus:      A4-A5 (SDA-SCL)
   - battery voltage   A6
 
   Calibration function
@@ -51,8 +51,8 @@
 //libraries
 #include <Wire.h>
 #include <EEPROM.h>
-#include <U8g2lib.h>
-#include <HX711.h>
+#include <U8g2lib.h>  //https://github.com/olikraus/U8g2_Arduino
+#include <HX711.h>    //https://github.com/bogde/HX711
 
 U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE, /* clock=*/ 16, /* data=*/ 17);
 
@@ -323,7 +323,7 @@ void loop()
 
 //-----------------------------------------------------------------
 //Functions
-//printing to LCD
+//printing to OLED
 void print2lcd(int line_1_2, String text)
 {
   float batt;

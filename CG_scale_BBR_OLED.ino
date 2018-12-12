@@ -23,8 +23,8 @@
   Load cell amplifiers are used with this library: https://github.com/bogde/HX711
 
   Connections / pins:
-  - rear load cell:   A0-A1
-  - front load cell:  A2-A3
+  - rear load cell:   A2-A3
+  - front load cell:  A0-A1
   - LCD i2c-bus:      A4-A5 (SDA-SCL)
   - battery voltage   A6
 
